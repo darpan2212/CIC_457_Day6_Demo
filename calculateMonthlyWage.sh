@@ -25,6 +25,7 @@ do
 		;;
 	esac;
 	totalWage=$((totalWage+empWage));
+	echo $totalWage;
 done
 
 echo "Employee Wage : $"$totalWage "USD";
